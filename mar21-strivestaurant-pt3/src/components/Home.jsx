@@ -47,7 +47,7 @@ class Home extends React.Component {
             )}
             {this.state.selectedDish.comments &&
             this.state.selectedDish.comments.some(
-              (comment) => comment.rating <= 5
+              (comment) => comment.rating < 5
             ) ? (
               <Alert variant='danger'>I won' eat here!</Alert>
             ) : (

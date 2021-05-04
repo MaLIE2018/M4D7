@@ -12,7 +12,11 @@ function OurCarousel(props) {
   return (
     <>
       {console.log(props.item)}
-      <Carousel activeIndex={index} onSelect={handleSelect} pause='hover'>
+      <Carousel
+        activeIndex={index}
+        onSelect={handleSelect}
+        pause='hover'
+        interval='3000'>
         {props.items.map((item, index) => (
           <Carousel.Item
             key={item.name}

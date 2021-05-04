@@ -6,23 +6,7 @@
     "category": "mains",
     "label": "Fat",
     "price": "7.99",
-    "description": "Pasta with Guanciale (a kind of bacon), Pecorino (sheep cheese), Pepper, Salt and Eggs.",
-    "comments": [
-      {
-        "id": 0,
-        "rating": 5,
-        "comment": "Wow! One of the best pasta I ever had!",
-        "author": "Tobia De Angelis",
-        "date": "2020-10-16T17:57:28.556094Z"
-      },
-      {
-        "id": 1,
-        "rating": 5,
-        "comment": "Awesome!",
-        "author": "Diego Banovaz",
-        "date": "2020-10-16T17:57:28.556094Z"
-      }
-    ]
+    "description": "Pasta with Guanciale (a kind of bacon), Pecorino (sheep cheese), Pepper, Salt and Eggs."
   },
   {
     "id": 1,

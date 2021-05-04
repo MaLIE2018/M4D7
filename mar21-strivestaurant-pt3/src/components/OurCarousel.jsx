@@ -6,7 +6,7 @@ function OurCarousel(props) {
 
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
-    props.onCarouselIndexChange(index);
+    props.onCarouselIndexChange(selectedIndex);
   };
 
   return (
@@ -23,7 +23,7 @@ function OurCarousel(props) {
             onClick={() => props.onCarouselIndexChange(index)}
             className=''>
             <img
-              className='d-block justify-self-center'
+              className='d-block justify-self-center mx-auto'
               src={item.image}
               style={{ height: 500 }}
               alt='First slide'
